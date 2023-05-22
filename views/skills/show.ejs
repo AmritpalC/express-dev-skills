@@ -1,0 +1,11 @@
+<%- include('../partials/header') %>
+
+<a href="/skills">&lt; Back</a>
+<h2><%= skill.name %></h2>
+
+<h3>Advanced Level: <%= (skill.skillLevel === 'Advanced') ? 'Yes' : 'No' %></h3>
+<h3>Category: <%= skill.category %></h3>
+<h3>Skill Level: <%= skill.skillLevel %></h3>
+<h3>Description: <%= skill.description %></h3>
+
+<%- include('../partials/footer') %>
